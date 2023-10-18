@@ -1,6 +1,6 @@
-# 论证样本量的合理性不 {#sec-power}
+# 论证样本量的合理性 {#sec-power}
 
-For an online version see: https://mp.weixin.qq.com/s/RBXptSamb3V9ZVF2vaijdQ 
+在线版本: https://mp.weixin.qq.com/s/RBXptSamb3V9ZVF2vaijdQ 
 
 ```{r, include = FALSE}
 # needed to make the chapter (not visible)
@@ -123,7 +123,7 @@ table_print
 对资源受限的样本量估计进行阐述时，建议先从表@tbl-table-pow-rec中提到的五个因素入手。明确地解决这些问题有助于评估数据是否值得收集。为了清晰地解决所有相关问题，可以在https://shiny.ieis.tue.nl/sample_size_justification/找到一个交互式表格来进行。
 
 ```{r tbl-table-pow-rec, echo = FALSE}
-#| tbl-cap: "Overview of recommendations when reporting a sample size justification based on resource constraints."
+#| tbl-cap: "基于资源限制进行样本量规划时的建议概览"
 
 table_pow_rec <- data.frame(c(
   "日后是否会有相关的元分析？", 
@@ -287,7 +287,7 @@ knitr::include_graphics("images/gpowprotocol.png")
 
 table_pow_rec_2 <- data.frame(c(
   "列出计划进行的主要检验", 
-  "明确 $\alpha$ 水平", 
+  "明确 $\alpha$水平", 
   "期望的统计检验力是多少？", 
   "对于每一个检验力分析，要说明效应量类型，效应量大小以及针对该效应量进行检验力的理由", 
   "考虑零假设为真的可能性",
